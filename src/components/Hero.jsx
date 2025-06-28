@@ -20,7 +20,7 @@ const Hero = () => {
                     {/* your full description */}
                     Hi there, I’m a web developer with a passion for building thoughtful and efficient digital experiences. I focus on clarity, simplicity, and functionality in every project.
                 </p>
-                <a href="https://drive.google.com/drive/u/0/folders/1eL5SSK0dM-a7BTBNldLUVRV8ayteBwMW" target="_blank" rel="noopener noreferrer"
+                <a href="https://drive.google.com/drive/folders/1eL5SSK0dM-a7BTBNldLUVRV8ayteBwMW?usp=sharing" target="_blank" rel="noopener noreferrer"
                 className="bg-primary rounded-lg p-3 text-lg text-black mb-10 inline-flex hover:bg-secondary transform transition-transform duration-300 hover:scale-95">
                     View Resume
                 </a>
