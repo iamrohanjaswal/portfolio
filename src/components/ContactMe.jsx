@@ -31,7 +31,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="w-[70%] lg:w-[50%] mx-auto hover:bg-[#706f6bfe] bg-[#706f6be7] shadow-md rounded-lg p-8 space-y-4 sm:scale-100 scale-80">
+    <div className="w-[70%] lg:w-[50%] mx-auto hover:bg-[#706f6bfe] bg-[#706f6be7] shadow-md rounded-lg p-8 space-y-4">
       <div className='flex justify-center'>
         <p className='bg-stone-700 text-primary text-5xl rounded-xl w-[80%] text-center shadow-primary shadow-md p-3'>Get in Touch</p>
       </div>

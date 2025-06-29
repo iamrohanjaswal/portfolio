@@ -3,7 +3,7 @@ import { EXPERIENCES } from '../constants'
 
 const Experience = () => {
   return (
-    <div className='sm:scale-100 scale-80'>
+    <div className=''>
       <div className="bg-[#706f6be7] rounded-2xl mx-auto hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] p-4 sm:my-40">
         <h2 className="text-center sm:text-5xl text-3xl flex justify-center  items-center w-auto">
           <p className='bg-stone-700 rounded-xl text-primary mb-10 mt-5 p-3 shadow-primary shadow-md '>Experience
