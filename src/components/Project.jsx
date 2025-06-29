@@ -6,7 +6,7 @@ import { FaLink } from "react-icons/fa";
 const Project = () => {
   return (
     <div className=''>
-        <div className='bg-[#706f6be7] rounded-2xl hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] mx-auto my-40'>
+        <div className='bg-[#706f6be7] rounded-2xl hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] mx-auto sm:my-40 sm:scale-100 scale-80'>
             <h2 className="p-8 text-center text-5xl flex justify-center">
                 <p className='bg-stone-700 w-auto h-auto text-primary rounded-lg p-3 shadow-primary shadow-md'>Projects</p>
                 </h2>

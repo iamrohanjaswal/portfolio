@@ -31,15 +31,15 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="w-[70%] lg:w-[50%] mx-auto hover:bg-[#706f6bfe] bg-[#706f6be7] shadow-md rounded-lg p-8 space-y-4">
+    <div className="w-[70%] lg:w-[50%] mx-auto hover:bg-[#706f6bfe] bg-[#706f6be7] shadow-md rounded-lg p-8 space-y-4 sm:scale-100 scale-80">
       <div className='flex justify-center'>
         <p className='bg-stone-700 text-primary text-5xl rounded-xl w-[80%] text-center shadow-primary shadow-md p-3'>Get in Touch</p>
       </div>
 
-    <div className='flex'>
+    <div className='sm:flex '>
       <form
     ref={form}
-    onSubmit={sendEmail} className="w-[60%] border-r-1 border-stone-700 pr-4"
+    onSubmit={sendEmail} className="sm:w-[60%] w-full sm:border-r-1 border-stone-700 sm:pr-4"
   >
     <div>
       <label className="block text-lg font-medium text-black mb-1">Name</label>
@@ -92,20 +92,20 @@ export const ContactUs = () => {
             "_blank"
           )
         }
-        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-[95%] hover:scale-[1.02] transition-transform"
+        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-full hover:scale-[1.02] transition-transform"
       >
-        <BiLogoGmail className="text-3xl" />
-        <p className="text-base font-medium hidden md:block">rohanjaswal45@gmail.com</p>
+        <BiLogoGmail className="text-xl hidden md:block" />
+        <p className="sm:text-base text-xs font-medium">rohanjaswal45@gmail.com</p>
       </div>
 
       {/* Phone Block */}
       <div
         title="Click to call"
         onClick={() => (window.location.href = "tel:+917807917262")}
-        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-[95%] hover:scale-[1.02] transition-transform"
+        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-full hover:scale-[1.02] transition-transform"
       >
         <FaPhone className="text-xl" />
-        <p className="text-base font-medium hidden md:block">+91 7807917262</p>
+        <p className="text-base font-medium">+91 7807917262</p>
       </div>
       
     </div>

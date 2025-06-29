@@ -15,13 +15,13 @@ import { GrMysql } from "react-icons/gr";
 const Technologies = () => {
   return (
     <div className="">
-      <div className="bg-[#706f6be7] w-[70%] lg:w-[50%] rounded-2xl mx-auto hover:bg-[#706f6bfe] p-5">
-      <h2 className="my-5 text-center flex justify-center  items-center text-5xl text-primary">
+      <div className="bg-[#706f6be7] w-[70%] lg:w-[50%] rounded-2xl mx-auto hover:bg-[#706f6bfe] p-5 sm:scale-100 scale-80">
+      <h2 className="my-5 text-center flex justify-center items-center text-2xl text-primary">
         <p className='bg-stone-700 size-auto rounded-xl p-3 shadow-primary shadow-md'>Technologies</p>
       </h2>
       <div className="flex flex-wrap items-center justify-center overflow-hidden">
         <div  className='bg-stone-700 rounded-3xl text-center p-3 m-4 flex-1 flex justify-center flex-col items-center hover:border-y-4 hover:border-primary transform transition-transform duration-300 hover:scale-110'>
-            <RiReactjsLine className="text-8xl  text-cyan-400 "/>
+            <RiReactjsLine className="text-8xl text-cyan-400"/>
             <p className='text-white text-2xl'>ReactJs</p>
         </div>
        

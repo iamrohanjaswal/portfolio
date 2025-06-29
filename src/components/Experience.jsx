@@ -3,10 +3,10 @@ import { EXPERIENCES } from '../constants'
 
 const Experience = () => {
   return (
-    <div className=''>
-      <div className="bg-[#706f6be7] rounded-2xl mx-auto hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] p-4 my-40">
-        <h2 className="text-center text-5xl flex justify-center  items-center w-auto">
-          <p className='bg-stone-700 rounded-xl text-primary mb-10 mt-5 p-3 shadow-primary shadow-md'>Experience
+    <div className='sm:scale-100 scale-80'>
+      <div className="bg-[#706f6be7] rounded-2xl mx-auto hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] p-4 sm:my-40">
+        <h2 className="text-center sm:text-5xl text-3xl flex justify-center  items-center w-auto">
+          <p className='bg-stone-700 rounded-xl text-primary mb-10 mt-5 p-3 shadow-primary shadow-md '>Experience
             </p></h2>
         <div>
             {EXPERIENCES.map((Experience, index)=>(
@@ -17,19 +17,23 @@ const Experience = () => {
                     </p>
                     </div>
                     <div className="w-auto max-w-xl lg:w-3/4">
-                    <h3 className="mb-2 font-bold text-xl">
+                    <h3 className="mb-2 font-bold sm:text-xl text-md">
                         {Experience.role} -{" "}
-                        <span className="text-md text-primary">
+                        <span className="sm:text-m text-sm text-primary">
                             {Experience.company}
                         </span>
                     </h3>
                     <p className="mb-4 text-white">
                         {Experience.description}
                     </p>
+                   
+                    <div className="flex flex-wrap">
                     {Experience.technologies.map((tech, index) =>(
-                        <span className="mr-2 mt-4 rounded bg-black px-2 py-1 text-md font-medium text-stone-300" key={index}>{tech}
+                        <span className="mr-2 sm:mt-4 mt-1 rounded bg-black px-2 py-1 sm:text-md font-medium text-stone-300" key={index}>{tech}
                         </span>
                     ))}
+                    </div>
+                    
 
                     </div>
                 </div>
