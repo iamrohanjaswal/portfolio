@@ -92,7 +92,7 @@ export const ContactUs = () => {
             "_blank"
           )
         }
-        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-full hover:scale-[1.02] transition-transform"
+        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-2 w-full hover:scale-[1.02] transition-transform"
       >
         <BiLogoGmail className="text-xl hidden md:block" />
         <p className="sm:text-base text-xs font-medium">rohanjaswal45@gmail.com</p>
@@ -102,7 +102,7 @@ export const ContactUs = () => {
       <div
         title="Click to call"
         onClick={() => (window.location.href = "tel:+917807917262")}
-        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-3 w-full hover:scale-[1.02] transition-transform"
+        className="cursor-pointer bg-primary text-black rounded-lg shadow shadow-black flex items-center gap-3 p-3 ml-2 w-full hover:scale-[1.02] transition-transform"
       >
         <FaPhone className="text-xl" />
         <p className="text-base font-medium">+91 7807917262</p>
