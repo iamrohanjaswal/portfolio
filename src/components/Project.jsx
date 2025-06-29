@@ -6,13 +6,13 @@ import { FaLink } from "react-icons/fa";
 const Project = () => {
   return (
     <div className=''>
-        <div className='bg-[#706f6be7] rounded-2xl hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] mx-auto sm:my-40 '>
+        <div className='bg-[#706f6be7] rounded-2xl hover:bg-[#706f6bfe] w-[70%] lg:w-[50%] mx-auto sm:my-40'>
             <h2 className="p-8 text-center text-5xl flex justify-center">
                 <p className='bg-stone-700 w-auto h-auto text-primary rounded-lg p-3 shadow-primary shadow-md'>Projects</p>
                 </h2>
-            <div className='pb-10'>
+            <div className='pb-5'>
             {PROJECTS.map((project, index)=>(
-                <div key={index} className="mb-8 flex flex-wrap lg:justify-center pl-15">
+                <div key={index} className="mb-8 flex flex-wrap lg:justify-center sm:pl-15 p-4 ">
                     <div className="w-full py-5 lg:w-1/4">
                     <img src={project.image} 
                     width={250}
